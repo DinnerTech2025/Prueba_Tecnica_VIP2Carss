@@ -13,7 +13,7 @@ Asegúrate de tener instalado en tu máquina:
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/usuario/proyecto-laravel.git
+   git clone https://github.com/DinnerTech2025/Prueba_Tecnica_VIP2Carss.git
    cd vip2cars
 3. **Crear la BD**
    ```bash
