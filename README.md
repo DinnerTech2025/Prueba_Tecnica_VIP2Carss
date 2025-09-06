@@ -28,7 +28,7 @@ Asegúrate de tener instalado en tu máquina:
     composer install
 
     generarle una clave mediante
-    php artisan jey:generate    
+    php artisan key:generate    
 
 4. **Ejecutar la Coneccion en BD en el .env**
    ```bash
