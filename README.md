@@ -17,7 +17,7 @@ Asegúrate de tener instalado en tu máquina:
    cd vip2cars
 2. **Crear la BD**
    ```bash
-   usando el script que se encuentra dentro dle proyecto
+   usando el sql que se encuentra dentro dle proyecto
    o generando la base de datos en local llamada db_encuestas_anonimas_vip2cars
 
 3. **Preparacion del Proyecto**
