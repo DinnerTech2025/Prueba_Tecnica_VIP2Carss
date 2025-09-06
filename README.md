@@ -15,7 +15,12 @@ Asegúrate de tener instalado en tu máquina:
    ```bash
    git clone https://github.com/usuario/proyecto-laravel.git
    cd vip2cars
-2. **Ejecutar la Coneccion en BD en el .env**
+3. **Crear la BD**
+   ```bash
+   usando el script que se encuentra dentro dle proyecto
+   o generando la base de datos en local llamada db_encuestas_anonimas_vip2cars
+
+3. **Ejecutar la Coneccion en BD en el .env**
    ```bash
    DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -23,14 +28,14 @@ Asegúrate de tener instalado en tu máquina:
     DB_DATABASE=db_encuestas_anonimas_vip2cars
     DB_USERNAME=root
     DB_PASSWORD=
-3. **Ejecutar las Migraciones**
+4. **Ejecutar las Migraciones**
    ```bash
    php artisan migrate
 
-4. **Ejecutar los Seeders**
+5. **Ejecutar los Seeders**
    ```bash
    php artisan db:seed
-5. **Cargar el Proyecto**
+6. **Cargar el Proyecto**
    ```bash
-   php artisan serve
+   php artisan serve   
 
