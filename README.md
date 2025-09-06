@@ -15,12 +15,22 @@ Asegúrate de tener instalado en tu máquina:
    ```bash
    git clone https://github.com/DinnerTech2025/Prueba_Tecnica_VIP2Carss.git
    cd vip2cars
-3. **Crear la BD**
+2. **Crear la BD**
    ```bash
    usando el script que se encuentra dentro dle proyecto
    o generando la base de datos en local llamada db_encuestas_anonimas_vip2cars
 
-3. **Ejecutar la Coneccion en BD en el .env**
+3. **Preparacion del Proyecto**
+   ```bash
+    copiar el .env.example y al nuevo archivo llamarlo solo .env
+
+    instalar composer dentro del proyecto con el comando 
+    composer install
+
+    generarle una clave mediante
+    php artisan jey:generate    
+
+4. **Ejecutar la Coneccion en BD en el .env**
    ```bash
    DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -28,14 +38,14 @@ Asegúrate de tener instalado en tu máquina:
     DB_DATABASE=db_encuestas_anonimas_vip2cars
     DB_USERNAME=root
     DB_PASSWORD=
-4. **Ejecutar las Migraciones**
+5. **Ejecutar las Migraciones**
    ```bash
    php artisan migrate
 
-5. **Ejecutar los Seeders**
+6. **Ejecutar los Seeders**
    ```bash
    php artisan db:seed
-6. **Cargar el Proyecto**
+7. **Cargar el Proyecto**
    ```bash
    php artisan serve   
 
